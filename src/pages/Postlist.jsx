@@ -1,3 +1,7 @@
 export default function Postlist() {
-  return <h3>Post list Content</h3>;
+  return (
+    <div>
+      <h3>Post list Content</h3>
+    </div>
+  );
 }

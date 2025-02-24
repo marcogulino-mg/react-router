@@ -13,9 +13,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route Component={Defaultlayout}>
-          <Route path="/" Component={Homepage}></Route>
-          <Route path="/postlist" Component={Postlist}></Route>
-          <Route path="/aboutus" Component={Aboutus}></Route>
+          <Route path="/" Component={Homepage} />
+          <Route path="/postlist" Component={Postlist} />
+          <Route path="/aboutus" Component={Aboutus} />
         </Route>
       </Routes>
     </BrowserRouter>

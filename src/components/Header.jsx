@@ -1,7 +1,9 @@
+import Navbar from "./Navbar";
+
 export default function Header() {
   return (
     <header>
-      <h1>Header Title</h1>
+      <Navbar />
     </header>
   );
 }
