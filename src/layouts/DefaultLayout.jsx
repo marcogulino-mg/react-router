@@ -5,9 +5,9 @@ import Header from "../components/Header";
 
 export default function Defaultlayout() {
   return (
-    <div>
+    <>
       <Header />
       <Outlet />
-    </div>
+    </>
   );
 }
