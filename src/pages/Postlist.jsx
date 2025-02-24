@@ -55,7 +55,7 @@ export default function Postlist() {
     <div>
       <h2>Post list Content</h2>
       {posts.map((post) => (
-        <div className="post">
+        <div key={post.id} className="post">
           <h3>{post.title}</h3>
           <p>{post.content}</p>
           <span>TAG: {post.tags.join(", ")}</span>
