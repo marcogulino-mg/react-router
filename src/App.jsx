@@ -1,6 +1,8 @@
 import "./App.css";
 // IMPORT ROUTES LIBRARY
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+// IMPORT LAYOUT
+import Defaultlayout from "./layouts/DefaultLayout";
 // IMPORT MACRO COMPONENTS
 import Header from "./components/Header";
 import Main from "./components/Main";
