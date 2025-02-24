@@ -42,6 +42,14 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -92,4 +100,16 @@ button:focus-visible {
 
 .active {
   border: solid 1px red;
+}
+
+/* POSTLIST */
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+}
+
+.post p {
+  text-align: initial;
 }

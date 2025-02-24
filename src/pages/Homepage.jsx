@@ -1,7 +1,7 @@
 export default function Homepage() {
   return (
     <div>
-      <h3>HomePage Content</h3>
+      <h2>HomePage Content</h2>
     </div>
   );
 }

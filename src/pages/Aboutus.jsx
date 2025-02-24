@@ -1,7 +1,7 @@
 export default function Aboutus() {
   return (
     <div>
-      <h3>About Us Content</h3>
+      <h2>About Us Content</h2>
     </div>
   );
 }
