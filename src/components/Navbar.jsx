@@ -13,6 +13,9 @@ export default function Navbar() {
         <li>
           <NavLink to="/aboutus">AboutUs</NavLink>
         </li>
+        <li>
+          <NavLink to="/postform">PostForm</NavLink>
+        </li>
       </ul>
     </nav>
   );
