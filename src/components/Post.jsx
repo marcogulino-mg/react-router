@@ -1,3 +1,5 @@
+import { NavLink, Link } from "react-router-dom";
+
 export default function Post(props) {
   return (
     <ul>
@@ -6,6 +8,7 @@ export default function Post(props) {
           <li key={post.id}>
             <h3>{post.title}</h3>
             <p>{post.content}</p>
+            <NavLink to={`/postlist/${post.id}`}>Vai al dettaglio</NavLink>
             <img src={post.image} alt={post.title} />
             <p>{post.tags.join(", ")}</p>
             <button onClick={() => props.onClick(post.id)}>Remove</button>
